@@ -1,3 +1,5 @@
-let texto = "Numero house";
-let resultado = texto.match(/Numero/g);
+const regex = /\d+/g;
+let texto: string  = "Tenho 3 mundiais, 22 paulistas e 6 brasileiros.";
+
+const resultado = texto.match(regex);
 console.log(resultado);
